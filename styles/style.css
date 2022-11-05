@@ -1,4 +1,4 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
 * {
     margin: 0px;
@@ -13,7 +13,6 @@ html, body {
 }
 
 body {
-    margin: 0px;
     background-image: url('..//imagens/fundo-madeira.jpg');
     background-repeat: no-repeat;
     background-position: top center;
@@ -36,4 +35,12 @@ section#telefone {
     width: 245px;
     background-image: url('../imagens/frame-iphone.png');
     background-repeat: no-repeat;
+}
+
+iframe#tela {
+    position: relative;
+    top: 64px;
+    left: 18px;
+    width: 209px;
+    height: 369px;
 }
